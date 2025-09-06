@@ -1,6 +1,6 @@
 ﻿using System.CommandLine;
 using System.Runtime.Loader;
-using HopperHomeAssignment;
+using ConcurrentURLDownloader;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()

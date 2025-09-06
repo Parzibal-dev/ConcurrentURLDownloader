@@ -1,7 +1,6 @@
 ﻿using System.Text.Json;
-using Serilog;
 
-namespace HopperHomeAssignment;
+namespace ConcurrentURLDownloader;
 
 public sealed class Config
 {
@@ -15,8 +14,7 @@ public sealed class Config
         PropertyNameCaseInsensitive = true,
     };
 
-    // Factory method instead of constructor to enable async file I/O
-    // This pattern allows us to perform async operations during object creation
+    // Factory method instead of constructor to enable async file handling
     public static async Task<Config> LoadFromFileAsync(FileInfo filePath, CancellationToken cancellationToken = default)
     {
         if (!filePath.Exists)
@@ -41,6 +39,7 @@ public sealed class Config
             throw new InvalidDataException(Messages.UrlListEmpty);
         }
 
+        // Ensure that the output path is not empty or whitespace
         if (string.IsNullOrWhiteSpace(OutputPath))
         {
             throw new InvalidDataException(Messages.OutputPathEmpty);

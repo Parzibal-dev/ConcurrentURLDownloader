@@ -1,4 +1,4 @@
-﻿namespace HopperHomeAssignment;
+﻿namespace ConcurrentURLDownloader;
 
 public abstract class Messages
 {

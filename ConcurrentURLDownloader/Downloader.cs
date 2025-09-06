@@ -1,7 +1,7 @@
-﻿namespace HopperHomeAssignment;
-
+﻿using System.Diagnostics;
 using Serilog;
-using System.Diagnostics;
+
+namespace ConcurrentURLDownloader;
 
 public class Downloader(Config config)
 {
