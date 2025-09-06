@@ -1,0 +1,7 @@
+﻿services:
+  hopperhomeassignment:
+    image: hopperhomeassignment
+    build:
+      context: .
+      dockerfile: HopperHomeAssignment/Dockerfile
+
