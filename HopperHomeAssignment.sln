@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HopperHomeAssignment", "HopperHomeAssignment\HopperHomeAssignment.csproj", "{FC83F0F1-E120-467D-ADA8-3E0D64CFD0A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86161F4A-8736-418A-BB21-CDDD1B98DCD2}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC83F0F1-E120-467D-ADA8-3E0D64CFD0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC83F0F1-E120-467D-ADA8-3E0D64CFD0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC83F0F1-E120-467D-ADA8-3E0D64CFD0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC83F0F1-E120-467D-ADA8-3E0D64CFD0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
